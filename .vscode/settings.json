@@ -1,0 +1,16 @@
+{
+  "eslint.lintTask.options": "--ext .ts ./src/**/*",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.probe": [
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown"
+  ],
+  "eslint.workingDirectories": [
+    "./"
+  ]
+}
